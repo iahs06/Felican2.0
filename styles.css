@@ -1,0 +1,84 @@
+/* Estilo general */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #141414;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a1a2e;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #6f2232;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #c4c4c4;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #c4c4c4;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #f64c72;
+}
+
+.section-title {
+    margin: 20px;
+    font-size: 1.5em;
+    color: #f64c72;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.item {
+    min-width: 200px;
+    margin-right: 10px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Sección específica de colores */
+.inicio {
+    background-color: #222831;
+}
+
+.feliformes {
+    background-color: #393e46;
+}
+
+.caniformes {
+    background-color: #393e46;
+}
+
+.blog {
+    background-color: #222831;
+}
+
+/* Fuente personalizada */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
