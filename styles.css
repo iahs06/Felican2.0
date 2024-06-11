@@ -63,6 +63,21 @@ nav a:hover {
     border-radius: 10px;
 }
 
+.text-with-image {
+    display: flex;
+    margin: 20px;
+}
+
+.text-with-image img {
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.text-with-image p {
+    text-align: justify;
+}
+
 /* Sección específica de colores */
 .inicio {
     background-color: #222831;
@@ -82,3 +97,4 @@ nav a:hover {
 
 /* Fuente personalizada */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
