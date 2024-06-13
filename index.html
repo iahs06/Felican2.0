@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animalflix - Inicio</title>
+    <title>Felican - Explorando Caniformes y Feliformes</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         /* Estilos adicionales */
@@ -41,12 +41,12 @@
             margin: 20px 0;
         }
         .text-with-image img {
-            width: 40%;
+            max-width: 60%;
             height: auto;
             border-radius: 5px;
         }
         .text-with-image div {
-            width: 50%;
+            width: 40%;
             text-align: left;
             padding: 0 20px;
         }
@@ -99,6 +99,20 @@
         }
         .contact-info p {
             margin: 5px 0;
+        }
+        .video-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            overflow-x: auto; /* Para permitir el desplazamiento horizontal en dispositivos pequeños */
+            padding-bottom: 20px;
+        }
+        .video-container iframe {
+            width: 45%; /* Ajustar el ancho de los videos */
+            max-width: 600px; /* Máximo ancho permitido */
+            height: 300px; /* Altura fija */
+            border: none;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -153,6 +167,12 @@
             <p><strong>Teléfono:</strong> +1 (234) 567-8901</p>
             <p><strong>Correo electrónico:</strong> info@animalflix.com</p>
         </div>
+
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/P0E0mR6-BTM" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/O2-afs44x4g" frameborder="0" allowfullscreen></iframe>
+        </div>
     </section>
 </body>
 </html>
+
