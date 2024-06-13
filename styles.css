@@ -80,21 +80,20 @@ nav a:hover {
 
 /* Sección específica de colores */
 .inicio {
-    background-color: #222831;
+    background-color: #222831; /* Azul oscuro */
 }
 
 .feliformes {
-    background-color: #393e46;
+    background-color: #393e46; /* Gris oscuro */
 }
 
 .caniformes {
-    background-color: #393e46;
+    background-color: #1a1a2e; /* Azul similar al de header */
 }
 
 .blog {
-    background-color: #222831;
+    background-color: #222831; /* Azul oscuro */
 }
 
 /* Fuente personalizada */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
