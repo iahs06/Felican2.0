@@ -5,6 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animalflix - Inicio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos adicionales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .section-title {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .text-with-image {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .text-with-image img {
+            width: 40%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .text-with-image div {
+            width: 50%;
+            text-align: left;
+            padding: 0 20px;
+        }
+        .comment-section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #1a3354; /* Azul marino */
+            border-radius: 5px;
+            color: white; /* Texto en color blanco */
+        }
+        .comment-section h3 {
+            margin-bottom: 10px;
+        }
+        .comment-form {
+            margin-bottom: 20px;
+        }
+        .comment-form input,
+        .comment-form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .comment-form textarea {
+            resize: vertical;
+        }
+        .comment-form button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .comment-form button:hover {
+            background-color: #1a3354;
+        }
+        .contact-info {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .contact-info h3 {
+            margin-bottom: 10px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body class="inicio">
     <header>
@@ -17,6 +112,7 @@
             <a href="galeria.html">Galería</a>
         </nav>
     </header>
+
     <section>
         <div class="text-with-image">
             <img src="https://via.placeholder.com/400x400?text=Animalflix+Principal" alt="Animalflix Principal">
